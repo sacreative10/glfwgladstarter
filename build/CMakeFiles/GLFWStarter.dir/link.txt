@@ -1,1 +1,0 @@
-/usr/lib64/ccache/c++ -rdynamic CMakeFiles/GLFWStarter.dir/thirdParty/glad/glad.c.o CMakeFiles/GLFWStarter.dir/src/main.cpp.o -o GLFWStarter  -lglfw3 
