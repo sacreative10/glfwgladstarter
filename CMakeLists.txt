@@ -32,7 +32,6 @@ add_custom_target(copy_shaders ALL
 	${CMAKE_CURRENT_SOURCE_DIR}/src/shaders
 	${CMAKE_CURRENT_BINARY_DIR}/shaders
 	COMMENT "Copying shaders"
-	VERBOSE
 	)
 
 add_dependencies(GLFWStarter copy_shaders)
