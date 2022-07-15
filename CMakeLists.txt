@@ -27,3 +27,12 @@ find_package(OpenGL REQUIRED)
 add_executable(GLFWStarter thirdParty/glad/glad.c src/main.cpp src/util/logger.cpp src/util/GLutil.cpp)
 target_link_libraries(GLFWStarter glfw OpenGL::GL)
 
+add_custom_target(copy_shaders ALL
+	COMMAND ${CMAKE_COMMAND} -E copy_directory
+	${CMAKE_CURRENT_SOURCE_DIR}/src/shaders
+	${CMAKE_CURRENT_BINARY_DIR}/shaders
+	COMMENT "Copying shaders"
+	VERBOSE
+	)
+
+add_dependencies(GLFWStarter copy_shaders)
