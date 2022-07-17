@@ -1,13 +1,23 @@
 [
 {
   "directory": "/home/sohaibalam/projects/glfwgladstarter/build",
-  "command": "/usr/lib64/ccache/cc  -I/home/sohaibalam/projects/glfwgladstarter/thirdParty/glad/include  -o CMakeFiles/GLFWStarter.dir/thirdParty/glad/glad.c.o -c /home/sohaibalam/projects/glfwgladstarter/thirdParty/glad/glad.c",
+  "command": "/usr/lib64/ccache/cc  -I/home/sohaibalam/projects/glfwgladstarter/thirdParty/glad/include -I/home/sohaibalam/projects/glfwgladstarter/thirdParty/glfw/include  -o CMakeFiles/GLFWStarter.dir/thirdParty/glad/glad.c.o -c /home/sohaibalam/projects/glfwgladstarter/thirdParty/glad/glad.c",
   "file": "/home/sohaibalam/projects/glfwgladstarter/thirdParty/glad/glad.c"
 },
 {
   "directory": "/home/sohaibalam/projects/glfwgladstarter/build",
-  "command": "/usr/lib64/ccache/c++  -I/home/sohaibalam/projects/glfwgladstarter/thirdParty/glad/include -std=gnu++17 -o CMakeFiles/GLFWStarter.dir/src/main.cpp.o -c /home/sohaibalam/projects/glfwgladstarter/src/main.cpp",
+  "command": "/usr/lib64/ccache/c++  -I/home/sohaibalam/projects/glfwgladstarter/thirdParty/glad/include -I/home/sohaibalam/projects/glfwgladstarter/thirdParty/glfw/include -std=gnu++17 -o CMakeFiles/GLFWStarter.dir/src/main.cpp.o -c /home/sohaibalam/projects/glfwgladstarter/src/main.cpp",
   "file": "/home/sohaibalam/projects/glfwgladstarter/src/main.cpp"
+},
+{
+  "directory": "/home/sohaibalam/projects/glfwgladstarter/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/sohaibalam/projects/glfwgladstarter/thirdParty/glad/include -I/home/sohaibalam/projects/glfwgladstarter/thirdParty/glfw/include -std=gnu++17 -o CMakeFiles/GLFWStarter.dir/src/util/logger.cpp.o -c /home/sohaibalam/projects/glfwgladstarter/src/util/logger.cpp",
+  "file": "/home/sohaibalam/projects/glfwgladstarter/src/util/logger.cpp"
+},
+{
+  "directory": "/home/sohaibalam/projects/glfwgladstarter/build",
+  "command": "/usr/lib64/ccache/c++  -I/home/sohaibalam/projects/glfwgladstarter/thirdParty/glad/include -I/home/sohaibalam/projects/glfwgladstarter/thirdParty/glfw/include -std=gnu++17 -o CMakeFiles/GLFWStarter.dir/src/util/GLutil.cpp.o -c /home/sohaibalam/projects/glfwgladstarter/src/util/GLutil.cpp",
+  "file": "/home/sohaibalam/projects/glfwgladstarter/src/util/GLutil.cpp"
 },
 {
   "directory": "/home/sohaibalam/projects/glfwgladstarter/build/thirdParty/glfw/src",
